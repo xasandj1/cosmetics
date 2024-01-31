@@ -1,0 +1,18 @@
+.header__btn {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header__lang {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.header__span{
+    margin-right: 8px;
+}
