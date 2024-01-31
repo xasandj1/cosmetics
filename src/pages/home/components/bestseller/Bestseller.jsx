@@ -1,8 +1,8 @@
 import React from 'react';
 import "./bestseller.scss"
 import { Cards } from '../cards/Cards';
-import { LeftSlider } from '../../../../assets/react-icons/LeftSlider';
-import { RightSlider } from '../../../../assets/react-icons/RightSlider';
+import { LeftSlider } from '../../../../assets/react-icon/LeftSlider';
+import { RightSlider } from '../../../../assets/react-icon/RightSlider';
 
 export const Bestseller = () => {
   return (

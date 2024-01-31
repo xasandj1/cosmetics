@@ -1,7 +1,7 @@
 import React from "react";
 import "./banner.scss"
-import { Left } from "../../../../assets/react-icons/left";
-import { Right } from "../../../../assets/react-icons/right";
+import { Left } from "../../../../assets/react-icon/left";
+import { Right } from "../../../../assets/react-icon/right";
 
 export const Banner = () => {
   return (

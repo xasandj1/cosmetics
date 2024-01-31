@@ -3,13 +3,8 @@ import React from "react";
 export const SearchIcon = () => {
   return (
     <svg
-<<<<<<< HEAD:src/assets/react-icons/search-icon.jsx
       width={24}
       height={24}
-=======
-      width={80}
-      height={80}
->>>>>>> 8de814dc7a20a996027da8b52014f332ad238a6a:src/assets/react-icon/search-icon.jsx
       viewBox="0 0 24 24"
       fill="currentcolor"
       xmlns="http://www.w3.org/2000/svg"

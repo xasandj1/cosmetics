@@ -1,9 +1,9 @@
 import React from 'react';
 import "./deliver.scss"
-import { Bussines } from "../../../../assets/react-icons/Bussines"
-import { Love } from "../../../../assets/react-icons/Love"
-import { WithLove } from "../../../../assets/react-icons/WithLove"
-import { Chat } from "../../../../assets/react-icons/Chat";
+import { Bussines } from "../../../../assets/react-icon/Bussines"
+import { Love } from "../../../../assets/react-icon/Love"
+import { WithLove } from "../../../../assets/react-icon/WithLove"
+import { Chat } from "../../../../assets/react-icon/Chat";
 
 export const Deliver = () => {
     return (

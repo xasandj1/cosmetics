@@ -1,8 +1,8 @@
 import React from "react";
-import { SearchIcon } from "../../../../assets/react-icons/search-icon";
-import { Down } from "../../../../assets/react-icons/down";
+import { SearchIcon } from "../../../../assets/react-icon/search-icon";
+import { Down } from "../../../../assets/react-icon/down";
 import "./header-button.scss"
-import { Heart } from "../../../../assets/react-icons/heart";
+import { Heart } from "../../../../assets/react-icon/heart";
 
 export const HeaderButtons = () => {
   return (
