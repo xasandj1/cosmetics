@@ -1,7 +1,10 @@
 .header {
     padding: 10px 0;
     border-bottom: 1px solid rgb(132 127 127 / 72%);
-    background: url(../../../assets/img/headerBg.png)no-repeat center/cover;
+    backdrop-filter: blur(20px);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
 .header__list {

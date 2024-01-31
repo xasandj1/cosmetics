@@ -15,7 +15,7 @@ export const Bestseller = () => {
           <div className="bestseller__cards">
             {Cards.map((item) => (
               <div className='bestseller__info'>
-                <img src={item.img} alt="" />
+                <img src={item.img} alt="" className='bestseller__img'/>
                 <h4 className="bestseller__info__title">{item.title}</h4>
                 <p className="bestseller__info__txt"><span>{item.price}</span> <span>{item.risePrice}</span></p>
               </div>
