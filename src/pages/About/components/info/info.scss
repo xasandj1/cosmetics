@@ -1,0 +1,38 @@
+.info_impressum_text {
+  color: #00f;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  margin-bottom: 10px;
+}
+.info_address_text {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  margin-bottom: 10px;
+}
+.info_address {
+  color: #00f;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  margin-bottom: 10px;
+}
+.info_number {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  margin-bottom: 8px;
+}
+.info_location {
+    margin-bottom: 15px;
+}
+.info_block {
+    display: flex;
+    gap: 200px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}

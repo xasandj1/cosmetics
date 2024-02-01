@@ -1,0 +1,65 @@
+.mission_title {
+  color: #000;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px; /* 128.571% */
+  margin-top: 64px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.mission_text {
+  margin-bottom: 50px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
+.mission_block {
+  width: 453px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.discover_title {
+  color: #000;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px; /* 128.571% */
+  margin-bottom: 22px;
+}
+.discover_text {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.857px; /* 136.607% */
+}
+.discover_container {
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.discover_section {
+  background-image: url("../../assets/img/discoverbg.png");
+  padding-top: 130px;
+  padding-bottom: 90px;
+}
+.discover_btn {
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 0.411px;
+  padding: 13px 20px;
+  border: 0.643px solid #000;
+  margin-top: 32px;
+}
+.team_container {
+    max-width: 715px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding: 64px 0;
+    gap: 87px;
+}

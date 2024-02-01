@@ -1,0 +1,35 @@
+.founder_container {
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.founder_section {
+  margin-top: 120px;
+  padding: 65px 0;
+  background: #fcf3f6;
+}
+.founder_flex {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+.founder_title {
+  color: #000;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px; /* 128.571% */
+  margin-bottom: 16px;
+}
+.founder_text {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  line-height: 21.857px; /* 136.607% */
+}
+.author {
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.714px; /* 139.286% */
+}
