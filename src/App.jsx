@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import { MainLayout } from "./layout/main-layout";
 import { nanoid } from "nanoid";
 import { main_pages } from "./router/main-router";
-
+import { SinglePage } from "./pages/single-pageProduct/single-page";
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
               element={route.component}
             />
           ))}
+          <Route path="product/:id" element={<SinglePage/>} />
         </Route>
       </Routes>
     </>
