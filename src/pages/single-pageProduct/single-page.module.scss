@@ -1,0 +1,161 @@
+.singlePage_hero {
+  padding-top: 35px;
+  padding-bottom: 50px;
+}
+.angry_grid {
+  display: grid;
+
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 77px 269px;
+
+  gap: 20px;
+  height: 100%;
+}
+
+.item0 {
+  grid-row-start: 1;
+  grid-column-start: 1;
+
+  grid-row-end: 2;
+  grid-column-end: 2;
+  width: 100%;
+}
+.item1 {
+  grid-row-start: 2;
+  grid-column-start: 1;
+
+  grid-row-end: 3;
+  grid-column-end: 2;
+  width: 100%;
+}
+.item2 {
+  grid-row-start: 3;
+  grid-column-start: 1;
+
+  grid-row-end: 4;
+  grid-column-end: 2;
+  width: 100%;
+}
+.item3 {
+  grid-row-start: 1;
+  grid-column-start: 2;
+
+  grid-row-end: 4;
+  grid-column-end: 3;
+  width: 100%;
+  height: auto;
+}
+
+.content_box {
+  display: flex;
+  align-items: start;
+  gap: 80px;
+}
+.title {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+.text {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.286px;
+  letter-spacing: 0.231px;
+}
+.desc {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.286px;
+  letter-spacing: 0.231px;
+  margin-bottom: 12px;
+}
+.text_box {
+  display: flex;
+  align-items: start;
+  gap: 5px;
+  margin-bottom: 20px;
+  span {
+    color: #4d4c4c;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.286px;
+    letter-spacing: 0.231px;
+    max-width: 35%;
+  }
+}
+.type_box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.type {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19.286px;
+  letter-spacing: 0.231px;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  border: 1px solid #8d8d8d;
+  transition: all 0.4s ease;
+  &:hover {
+    border: 1px solid #000;
+  }
+}
+.count,
+.btn {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19.286px;
+  letter-spacing: 0.231px;
+}
+.btnBox {
+  padding: 5px 12px 3px 12px;
+  border: 1px solid #000;
+  max-width: 79px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.addBtn {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19px;
+  padding: 5px 12px;
+  background-color: #000;
+}
+.button_box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+.tags{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-bottom: 45px;
+}
+.accardion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.content_text{
+    max-width: 45%;
+}

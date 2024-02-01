@@ -1,9 +1,11 @@
 import React from "react";
-import { ProductHero } from "./product-hero/product-hero";
+import { ProductHero } from "./components/product-hero";
+import { ProductAbout } from "./about/product-about";
 export const Products = () => {
   return (
    <>
    <ProductHero/>
+   <ProductAbout/>
    </>
   );
 };
